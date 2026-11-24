@@ -1,0 +1,52 @@
+# ==============================================================================
+# Security & Credentials (CRITICAL - DO NOT COMMIT)
+# ==============================================================================
+.env
+.env.local
+.env.*.local
+*.env
+
+# Persisted authentication session tokens and cookies
+session.json
+
+# Process Locks
+*.lock
+word_com.lock
+
+# ==============================================================================
+# Runtime Working Directories & Generated Artifacts
+# ==============================================================================
+scratch/
+clients/temp/
+*.pdf.tmp
+*.docx.tmp
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Logs
+*.log
